@@ -1,2 +1,4 @@
 # Travelling-Salesman-With-Genetic-Algorithm
 Solving the classic Travelling Salesman problem with a new take on a genetic algorithm
+
+Hello! This is a version of the common Travelling saleman problem solved using a genetic algorithm. What sets this solution apart is that instead of solving the entire path at once, it breaks it down into smaller, more manageable segments. I realized while working on this project that the generic genetic algorithm's runtime scales exponentially with input size, so by breaking it down into segments and tackling each segment at a time we can make it essentially linear. While it will almost never find the most optimal solution to any problem, a isn't really the goal of a genetic algorithm. Instead it permforms much better across larger inputs in a given timeframe compared to a classic genetic algorithm.
